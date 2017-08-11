@@ -1,7 +1,7 @@
 ---
 name: greet
-pack: hello_st2
+pack: CanonnEventManager
 description: "Greet"
-action_ref: "hello_st2.greet"
+action_ref: "CanonnEventManager.greet"
 formats:
   - "greet {{greeting}}"
