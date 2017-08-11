@@ -1,0 +1,13 @@
+---
+name: greet
+pack: CanonnEventManager
+runner_type: local-shell-cmd
+description: Greet!
+enabled: true
+entry_point: greet.sh
+parameters:
+    greeting:
+        type: string
+        description: Greeting you want to say (i.e. Hello, Hi, Yo, etc.)
+        required: true
+        position: 1

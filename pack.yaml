@@ -1,0 +1,12 @@
+---
+ref: CanonnEventManager
+name: (temporary) Events Assistant
+description: A simple set of tools to manage events
+keywords:
+    - Reminder
+    - Canonn
+    - Events
+
+version: 0.1.0
+author: Kal
+email: webadmin@canonn.science
