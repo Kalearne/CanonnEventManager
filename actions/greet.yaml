@@ -1,6 +1,6 @@
 ---
 name: greet
-pack: CanonnEventManager
+pack: canonneventmanager
 runner_type: local-shell-cmd
 description: Greet!
 enabled: true

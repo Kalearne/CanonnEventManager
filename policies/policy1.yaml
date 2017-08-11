@@ -1,9 +1,9 @@
 ---
 name: greet.concurrency
-pack: CanonnEventManager
+pack: canonneventmanager
 description: Limits the concurrent executions of the greet action.
 enabled: true
-resource_ref: CanonnEventManager.greet
+resource_ref: canonneventmanager.greet
 policy_type: action.concurrency
 parameters:
     threshold: 1

@@ -1,11 +1,11 @@
 ---
 name: on_hello_event1
-pack: CanonnEventManager
+pack: canonneventmanager
 description: Sample rule firing on CanonnEventManager.event1.
 enabled: true
 trigger:
-    type: CanonnEventManager.event1
+    type: canonneventmanager.event1
 action:
-    ref: CanonnEventManager.greet
+    ref: canonneventmanager.greet
     parameters:
         greeting: Helloo
